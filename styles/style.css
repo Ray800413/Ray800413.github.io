@@ -1,0 +1,35 @@
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels highy */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin:0; /*This eliminate the gap at the top of the body*/
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: #00539F;
+}
+
+body{
+    width: 600px; /*This forces the body to always be 600 pixels wide*/
+    margin: 0 auto; /* When you set two values on a property like margin or padding, the first value affects the element's top and bottom side; the second value affects the left and right side.*/
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px; /* The goal is to put some space around the content. The values set top, right, bottom, left, in that order*/
+    border: 5px solid black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
